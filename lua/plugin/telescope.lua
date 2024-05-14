@@ -4,7 +4,7 @@ return {
 	dependencies = 'nvim-lua/plenary.nvim',
 	keys = {
 		{
-				";f",
+				"<leader>f",
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.find_files({
@@ -15,7 +15,7 @@ return {
 				desc = "Lists files in your current working directory, respects .gitignore",
 			},
 			{
-				";r",
+				"<leader>t",
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.live_grep({
@@ -24,6 +24,13 @@ return {
 				end,
 				desc = "Search for a string in your current working directory and get results live as you type, respects .gitignore",
 			},
-	}
-	require('telescope').setup{}
+			{
+				"<leader>b",
+				function()
+					local builtin = require("telescope.builtin")
+					builtin.buffers()
+				end,
+				desc = "Lists open buffers",
+			},
+	},
 }
