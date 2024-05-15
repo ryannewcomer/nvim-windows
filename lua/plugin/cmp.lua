@@ -2,7 +2,6 @@ return {
     'hrsh7th/nvim-cmp',
     dependencies = {'L3MON4D3/LuaSnip', 'neovim/nvim-lspconfig', 'hrsh7th/cmp-nvim-lsp'},
 	config = function ()
-
         local luasnip = require("luasnip")
         local cmp = require("cmp")
 
