@@ -27,3 +27,10 @@ vim.opt.splitbelow = true -- Put new windows below current
 vim.opt.splitright = true -- Put new windows right of current
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
+
+-- disable netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_newtrwPlugin = 1
+
+-- enable 24-bit color
+vim.opt.termguicolors = true
