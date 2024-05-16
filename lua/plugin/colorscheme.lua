@@ -1,7 +1,8 @@
 return {
-	 "dgox16/oldworld.nvim",
+    'AlexvZyl/nordic.nvim',
     lazy = false,
     priority = 1000,
-    config = true,
-
+    config = function()
+        require 'nordic' .load()
+    end
 }

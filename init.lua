@@ -22,7 +22,6 @@ vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 
 vim.opt.number = true
-vim.cmd.colorscheme("oldworld")
 vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
