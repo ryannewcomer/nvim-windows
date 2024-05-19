@@ -3,7 +3,7 @@ return {
     dependencies = {'L3MON4D3/LuaSnip', 'neovim/nvim-lspconfig', 'hrsh7th/cmp-nvim-lsp'},
 	config = function ()
         local luasnip = require("luasnip")
-        local cmp = require("cmp")
+       local cmp = require("cmp")
         cmp.setup({
             snippet = {
                 expand = function(args)
@@ -59,5 +59,3 @@ return {
     }
     end
 }
-
-
