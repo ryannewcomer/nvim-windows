@@ -15,7 +15,6 @@ vim.g.mapleader = " "
 
 require("lazy").setup("plugin")
 
-
 --option
 
 vim.opt.encoding = "utf-8"
